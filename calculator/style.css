@@ -1,0 +1,30 @@
+*{
+margin: 0;
+}
+#container {
+  border: 1px solid black;
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: brown;
+}
+#display{
+  margin: 10px 20px 10px ;
+  width: 130px;
+}
+#container h2{
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+.button-container{
+  width: 130px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.button{
+  width: 30px;
+  height: 30px;
+  margin: 3px;
+}
